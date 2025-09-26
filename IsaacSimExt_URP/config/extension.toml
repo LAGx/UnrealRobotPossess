@@ -1,0 +1,18 @@
+[package]
+version = "1.0.1"
+category = "Simulation"
+title = "UnrealPossessedRobot"
+description = ""
+authors = ["Kvark"]
+repository = ""
+keywords = ["Unreal", "UE"]
+icon = "data/icon.png"
+writeTarget.kit = true
+
+[dependencies]
+"isaacsim.core.api" = {}
+"isaacsim.gui.components" = {}
+"omni.kit.uiapp" = {}
+
+[[python.module]]
+name = "UnrealPossessedRobot_python"

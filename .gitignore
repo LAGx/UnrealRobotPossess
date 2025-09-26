@@ -2,6 +2,14 @@
 .vs/
 .idea/
 
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.$py.class
+
+trash/
+**/trash/
+
 # Compiled Object files
 *.slo
 *.lo
