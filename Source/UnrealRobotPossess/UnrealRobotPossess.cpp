@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright Yurii (Kvark) Maruda. Free open sample.
 
 #include "UnrealRobotPossess.h"
 #include "Modules/ModuleManager.h"
