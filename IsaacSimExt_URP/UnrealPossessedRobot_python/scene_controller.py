@@ -97,6 +97,7 @@ class CustomSceneController:
         self.move_hand_to_pos(SceneHandName.FESTO, translation_target, orientation_target)
         self.move_hand_to_pos(SceneHandName.RIZON, translation_target, orientation_target)
 
+    # Entry point for ROS
     def move_hand_to_pos_from_str_safe(self, hand_name_str: str, translation_target, orientation_target):
         try:
             hand_name: SceneHandName = SceneHandName[hand_name_str.lower()]
